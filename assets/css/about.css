@@ -1,0 +1,9 @@
+.flipi {
+    content: url("../src/img/about-banner.png");
+}
+
+@media (max-width:580px) {
+    .flipi {
+        content: url("../src/img/about-banner-sec.png");
+    }
+}
