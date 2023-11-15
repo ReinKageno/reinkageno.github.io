@@ -16,3 +16,7 @@
 .bd-gutter {
     --bs-gutter-x: 3rem;
 }
+
+.text-inline {
+    display: inline!important;
+}
