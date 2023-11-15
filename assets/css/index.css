@@ -1,7 +1,17 @@
 @media (min-width:768) {
- .bd-masthead .lead {
-    font-size: calc(1.275rem + .3vw);
- }
+    .bd-masthead .lead {
+        font-size: calc(1.275rem + .3vw);
+    }
+}
+
+.flipe {
+    content: url("../src/img/main.png");
+}
+
+@media (max-width:500px) {
+    .flipe {
+        content: url("../src/img/main-sec.png");
+    }
 }
 
 .main-content {
@@ -15,8 +25,4 @@
 
 .bd-gutter {
     --bs-gutter-x: 3rem;
-}
-
-.text-inline {
-    display: inline!important;
 }
