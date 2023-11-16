@@ -1,0 +1,8 @@
+#journalButton{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#journalButton:active {
+    color: #0d6efd;
+}
