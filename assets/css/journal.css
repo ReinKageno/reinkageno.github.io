@@ -6,3 +6,25 @@
 #journalButton:active {
     color: #0d6efd;
 }
+
+.journalTextTouch {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.journalTextTouch:hover {
+    color: #0d6efd;
+}
+
+.journalTab {
+    color: #ffffff;
+    cursor: pointer;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.journalTab:hover {
+    color: #0d6efd;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}

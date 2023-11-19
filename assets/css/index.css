@@ -26,3 +26,7 @@
 .bd-gutter {
     --bs-gutter-x: 3rem;
 }
+
+.text-recenter {
+    text-align: center!important;
+}
